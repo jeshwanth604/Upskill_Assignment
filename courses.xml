@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="courses.xsd">
+
+    <course>
+        <name>Python Course</name>
+        <price>999</price>
+        <oldPrice>2000</oldPrice>
+        <students>1444</students>
+        <duration>6 Weeks</duration>
+    </course>
+
+    <course>
+        <name>Java Course</name>
+        <price>1200</price>
+        <oldPrice>2500</oldPrice>
+        <students>1200</students>
+        <duration>8 Weeks</duration>
+    </course>
+
+    <course>
+        <name>Web Development</name>
+        <price>1500</price>
+        <oldPrice>3000</oldPrice>
+        <students>1800</students>
+        <duration>10 Weeks</duration>
+    </course>
+
+    <course>
+        <name>C Programming</name>
+        <price>700</price>
+        <oldPrice>1500</oldPrice>
+        <students>900</students>
+        <duration>5 Weeks</duration>
+    </course>
+
+    <course>
+        <name>Data Science</name>
+        <price>2000</price>
+        <oldPrice>4000</oldPrice>
+        <students>2100</students>
+        <duration>12 Weeks</duration>
+    </course>
+
+    <course>
+        <name>Machine Learning</name>
+        <price>2500</price>
+        <oldPrice>5000</oldPrice>
+        <students>1700</students>
+        <duration>10 Weeks</duration>
+    </course>
+
+    <course>
+        <name>AI Basics</name>
+        <price>1800</price>
+        <oldPrice>3500</oldPrice>
+        <students>1300</students>
+        <duration>8 Weeks</duration>
+    </course>
+
+    <course>
+        <name>Cyber Security</name>
+        <price>1400</price>
+        <oldPrice>3000</oldPrice>
+        <students>1000</students>
+        <duration>9 Weeks</duration>
+    </course>
+
+    <course>
+        <name>Cloud Computing</name>
+        <price>2200</price>
+        <oldPrice>4500</oldPrice>
+        <students>1600</students>
+        <duration>11 Weeks</duration>
+    </course>
+
+</courses>

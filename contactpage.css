@@ -1,0 +1,56 @@
+/* CONTACT PAGE */
+
+.contact-box{
+    width:350px;
+    margin:50px auto;
+    padding:30px;
+    background:rgba(0,0,0,0.7);   /* transparent box */
+    border-radius:12px;
+    text-align:center;
+}
+
+.input-box{
+    display: flex;
+    position:relative;
+    margin:20px 0;
+}
+
+.input-box i{
+    color:#ff7200;
+    font-size:20px;
+    margin-right:10px;
+    margin-top:5px;   /* 🔥 push icon slightly down */
+}
+
+.input-box input,
+.input-box textarea{
+    width:100%;
+    padding:10px 10px 10px 40px;
+    background:transparent;
+    border:1px solid #ff7200;
+    color:#fff;
+    border-radius:5px;
+    outline:none;
+}
+
+.input-box textarea{
+    height:100px;
+    resize:none;
+}
+
+.send-btn{
+    width:100%;
+    padding:10px;
+    background:#ff7200;
+    border:none;
+    color:#fff;
+    font-size:16px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.send-btn:hover{
+    background:#fff;
+    color:#ff7200;
+}
