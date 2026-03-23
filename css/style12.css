@@ -260,14 +260,14 @@ color:#ff7200;
     position:absolute;
     top:50%;
     left:50%;
-    transform:translate(-50%, -50%); /* center perfectly */
+    transform:translate(-50%, -50%); 
     border-radius:10px;
     padding:25px;
 }
 .course-container{
     display:grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 per row */
-    gap:50px;   /* more space */
+    grid-template-columns: repeat(3, 1fr); 
+    gap:50px;   
     max-width:1200px;
     margin:0 auto;
 }
@@ -277,15 +277,14 @@ color:#ff7200;
     text-align:center;
     color:white;
     border-radius:12px;
-    
-    height:380px;         /* FIXED HEIGHT */
+    height:380px;         
     display:flex;
     flex-direction:column;
     justify-content:space-between;
 }
 .course-card img{
     width:100%;
-    height:180px;   /* bigger image */
+    height:180px;   
     border-radius:10px;
 }
 .students{
@@ -310,7 +309,7 @@ color:#ff7200;
     letter-spacing:1px;
 }
 .course-bg{
-    background:url("../coursebackground.avif");
+    background:url("../images/coursebackground.avif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
