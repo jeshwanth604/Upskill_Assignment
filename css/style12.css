@@ -10,7 +10,7 @@ body{
 .main{ 
     width:100%; 
     background:linear-gradient(to 
-top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(images/homebackground.jpeg); 
+top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("../images/homebackground.jpeg"); 
     background-position:center ; 
     background-size: cover ; 
     height:100vh; 
@@ -310,7 +310,7 @@ color:#ff7200;
     letter-spacing:1px;
 }
 .course-bg{
-    background:url("coursebackground.avif");
+    background:url("../coursebackground.avif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -389,14 +389,14 @@ color:#ff7200;
 }
 .signupbackground
 {
-    background-image: url("images/homebackground.jpeg");
+    background-image: url("../images/homebackground.jpeg");
     background-repeat: no-repeat;
 }
 .aboutbackground{
-    background-image: url("images/homebackground.jpeg");
+    background-image: url("../images/homebackground.jpeg");
 }
 .contactbackground{
-    background-image: url("images/homebackground.jpeg");
+    background-image: url("../images/homebackground.jpeg");
 }
 /* COURSE GRID FIX */
 .course-container{
